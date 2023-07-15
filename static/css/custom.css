@@ -1,1 +1,18 @@
 /* Add custom CSS here. */
+:root {
+    --main-accent-color: #00A4EA;
+}
+.author,a:hover, a:visited, a:link{
+    color: var(--main-accent-color);
+}
+.intro{
+    font-style:italic;
+    border-bottom: 15px solid transparent;
+}
+.social * {
+    font-size: 120%;
+    border: 5px solid transparent;
+}
+.location{
+    border-top: 15px solid transparent;
+}
